@@ -59,7 +59,7 @@
     </div>
     <script>
       // Get the mapping from Flask as a JS object
-      const companyModelMap = {{ company_model_map|tojson | safe }};
+      const companyModelMap = {{ company_model_map | tojson | safe }};
       const companySelect = document.getElementById('company');
       const modelSelect = document.getElementById('car_model');
 
